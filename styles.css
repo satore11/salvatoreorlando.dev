@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Bitter', serif;
+  background-color: #f7f7f5;
+  color: #1a1a1a;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+ul {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+  font-size: 0.8rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul.nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 2rem;
+  list-style: none;
+  gap: 0.5rem;
+}
+
+ul.nav li {
+  display: flex;
+  align-items: center;
+}
+
+.project {
+  margin-bottom: 2.5rem;
+}
+
+.project-meta {
+  font-style: italic;
+  color: #4a4a4a;
+  margin-bottom: 0.5rem;
+}
+
+.tech-list {
+  font-family: 'Courier New', monospace;
+  font-size: 0.9rem;
+  color: #4a4a4a;
+  margin-top: 0.75rem;
+}
+
+.tech-category {
+  margin-bottom: 1.5rem;
+}
+
+.tech-category strong {
+  font-weight: 600;
+}
+
+.tech-category ul {
+  margin-top: 0.5rem;
+  font-family: 'Courier New', monospace;
+  font-size: 0.95rem;
+}
+
+.highlight-box {
+  background-color: #e8e8e6;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  border-left: 3px solid #1a1a1a;
+}
+
+.contact-links {
+  margin-top: 1.5rem;
+}
+
+.contact-links a {
+  display: inline-block;
+  margin-right: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.profile-photo {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  float: right;
+  margin: 0 0 1rem 1.5rem;
+  shape-outside: circle();
+}
+
+footer {
+  margin-top: 4rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #ccc;
+  font-size: 0.9rem;
+  color: #4a4a4a;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 1.5rem 1rem;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+  }
+
+  .profile-photo {
+    width: 120px;
+    height: 120px;
+    float: none;
+    display: block;
+    margin: 0 auto 1.5rem auto;
+  }
+}
