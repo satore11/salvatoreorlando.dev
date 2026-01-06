@@ -31,6 +31,10 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="manifest" href="/site.webmanifest">
 
+  <!-- Preload critical fonts to break request chain -->
+  <link rel="preload" href="/fonts/bitter-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/bitter-600-latin.woff2" as="font" type="font/woff2" crossorigin>
+
   <!-- Styles -->
   <link rel="stylesheet" href="/styles.min.css">
 </head>
